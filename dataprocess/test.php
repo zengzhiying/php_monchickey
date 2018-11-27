@@ -20,4 +20,11 @@ $dc = new DataConversion();
 echo $dc->chineseToPinyin("测试汉字a");
 echo "<br />";
 echo $dco->utf8_substr("hello这是一段测试文字", 4, 3);
+echo "<br />";
+// $s = 'LAE=';
+// $s = 'mmw=';
+$s = 'CzxbP+eTmmw=';
+$float16_bin = base64_decode($s);
+$float16_numbers = $dc->float16binTransform($float16_bin);
+var_dump($float16_numbers);
 
