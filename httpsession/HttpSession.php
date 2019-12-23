@@ -1,4 +1,5 @@
 <?php
+namespace httpsession;
 class HttpSession {
 
 	//设置cookie cookie是不同步的，需要刷新

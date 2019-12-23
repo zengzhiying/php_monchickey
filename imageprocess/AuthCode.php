@@ -1,4 +1,5 @@
 <?php
+namespace imageprocess;
 /**
  * 不同种类的生成图像验证码生成类
  */

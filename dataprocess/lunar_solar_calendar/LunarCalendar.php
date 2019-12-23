@@ -1,4 +1,5 @@
 <?php
+namespace dataprocess\lunar_solar_calendar;
 /**
  * 阴历阳历转换工具类
  * 阳历范围严格限制在闭区间:[1902.01.01 ~ 2037.12.31]

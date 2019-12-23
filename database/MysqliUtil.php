@@ -1,4 +1,5 @@
 <?php
+namespace database;
 /**
  * 新版mysqli连接工具类
  * php7以及以后的版本都用

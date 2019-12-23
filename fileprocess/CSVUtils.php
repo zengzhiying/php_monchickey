@@ -1,4 +1,5 @@
 <?php
+namespace fileprocess;
 /**
  * Csv操作类
  */

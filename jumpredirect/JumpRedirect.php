@@ -1,4 +1,5 @@
 <?php
+namespace jumpredirect;
 /**
  * 页面跳转与重定向
  */

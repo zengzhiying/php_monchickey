@@ -1,6 +1,8 @@
 <?php
 header('Content-Type:text/html; charset=utf-8');
-require_once 'Snoopy.class.php';
+require_once "../autoload.php";
+use networkcommunication\Snoopy;
+// require_once 'Snoopy.class.php';
 $snoopy = new Snoopy();
 
 

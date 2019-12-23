@@ -1,11 +1,12 @@
 <?php
+namespace examples;
+require_once "../autoload.php";
+use networkcommunication\WebGrab;
+
+
 header('Content-Type:text/html; charset=utf-8');
-
-
-
-
-require_once 'class/Grab.class.php';
-$obj = new Grab();
+// require_once 'class/Grab.class.php';
+$obj = new WebGrab();
 
 //$url = 'http://www.htys.cc/login.php?';
 // $url2 = 'http://www.htys.cc/profile.php?action=modify';
@@ -30,7 +31,7 @@ $obj = new Grab();
 // }
 
 $url = 'http://dwz.cn/zzy_jianli';
-if($result = $obj->Reduction($url)) {
+if($result = $obj->sortUrlReduction($url)) {
     echo $result;
 } else {
     echo "网址还原失败";

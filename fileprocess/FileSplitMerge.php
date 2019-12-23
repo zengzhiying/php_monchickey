@@ -1,4 +1,5 @@
 <?php
+namespace fileprocess;
 /**
  * php分割以及合并文件操作类
  * 使用是一定要设置如下参数

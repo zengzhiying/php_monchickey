@@ -1,6 +1,9 @@
 <?php
+namespace examples;
+require_once "../autoload.php";
+use clientdetection\ClientDetection;
+
 header('Content-Type:text/html; charset=utf-8');
-require_once 'class/ClientDetection.class.php';
 
 print_r($_SERVER['HTTP_USER_AGENT']);
 echo '<br />';

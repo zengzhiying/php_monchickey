@@ -1,4 +1,5 @@
 <?php
+namespace clientdetection;
 /**
  * 检测客户端信息的类
  * 包括访问的终端类型:手机端 vs 电脑端

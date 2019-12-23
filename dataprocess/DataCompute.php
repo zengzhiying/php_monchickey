@@ -1,6 +1,7 @@
 <?php
-
-require_once dirname(__FILE__).'/PBKDF2Hash.php';
+namespace dataprocess;
+// require_once dirname(__FILE__).'/PBKDF2Hash.php';
+use dataprocess\PBKDF2Hash;
 
 /**
  * 数据统计计算类库

@@ -1,4 +1,5 @@
 <?php
+namespace imageprocess;
 class ImageCut {
 	/**
 	 * 图片裁剪方法

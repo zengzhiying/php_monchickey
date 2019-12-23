@@ -1,4 +1,5 @@
 <?php
+namespace dataprocess;
 
 /**
 * pbkdf2 hash类库封装

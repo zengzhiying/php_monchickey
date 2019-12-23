@@ -1,4 +1,5 @@
 <?php
+namespace dataprocess;
 /**
  * 数据验证类，一般是常用的表单输入的字符串验证方法
  */

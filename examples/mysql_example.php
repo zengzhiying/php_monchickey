@@ -1,7 +1,9 @@
 <?php
+namespace examples;
+require_once "../autoload.php";
+use database\MysqliUtil;
 header('Content-type:text/html; charset=utf-8');
-require_once 'class/Mysql.class.php';
-$mysqlobj = new Mysql("localhost","root","123456","ceshi");
+$mysqlobj = new MysqliUtil("localhost","root","123456","ceshi");
 // $db_arr = $mysqlobj->Dblist();
 // print_r($db_arr);
 

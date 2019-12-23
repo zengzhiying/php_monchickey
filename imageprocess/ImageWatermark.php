@@ -1,4 +1,5 @@
 <?php
+namespace imageprocess;
 /**
  * 图片加水印类
  */

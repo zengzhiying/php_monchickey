@@ -1,4 +1,5 @@
 <?php
+namespace fileprocess;
 class FileUpload {
 
     //截取文件扩展名

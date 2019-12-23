@@ -1,5 +1,7 @@
 <?php
-require_once 'chinese_pinyin/ChinesePinyin.php';
+namespace dataprocess;
+// require_once dirname(__FILE__).'/chinese_pinyin/ChinesePinyin.php';
+use dataprocess\chinese_pinyin\ChinesePinyin;
 /**
  * 数据转换类，json xml互转，json 关联数组互转等
  */

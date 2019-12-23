@@ -1,4 +1,5 @@
 <?php
+namespace imageprocess;
 /**
  * 图像绘制类 绘制线条，图形，文字等
  */

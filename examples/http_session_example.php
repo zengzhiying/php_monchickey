@@ -1,4 +1,7 @@
 <?php
+namespace examples;
+require_once "../autoload.php";
+use httpsession\HttpSession;
 //假设用户登录成功获得了以下用户数据
 $userinfo = array(
     'uid'  => 10000,
@@ -8,7 +11,7 @@ $userinfo = array(
     'age'  => '21'
 );
 header("content-type:text/html; charset=utf-8");
-require_once 'HttpSession.class.php';
+// require_once 'HttpSession.class.php';
 $s = new HttpSession();
 echo '<br />';
 if($s->cookieEncryption($userinfo, "yingailishuli520", "userinfo", 3600)) {

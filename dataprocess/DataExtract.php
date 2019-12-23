@@ -1,4 +1,5 @@
 <?php
+namespace dataprocess;
 /**
  * 数据抽取类 从字符串中以及长文本中获取有用的数据
  */

@@ -1,4 +1,5 @@
 <?php
+namespace dataprocess\chinese_pinyin;
 /**
  * 汉字转换拼音工具类
  */

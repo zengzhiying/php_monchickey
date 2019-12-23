@@ -1,4 +1,5 @@
 <?php
+namespace networkcommunication;
 /**
  * cURL远程页面抓取类
  */

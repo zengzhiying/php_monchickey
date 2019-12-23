@@ -1,4 +1,5 @@
 <?php
+namespace fileprocess;
 /**
  * 文件压缩解压类
  */
